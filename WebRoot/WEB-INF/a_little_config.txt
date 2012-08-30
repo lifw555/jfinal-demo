@@ -1,0 +1,9 @@
+devMode = true
+
+jdbcUrl = jdbc:mysql://127.0.0.1/jfinal_demo?characterEncoding=GBK&zeroDateTimeBehavior=convertToNull
+user = root
+password = mysql
+
+#jdbcUrl=jdbc:mysql://sqld.duapp.com:4050/nPRwYuSmJSLPfVZHxSLo?createDatabaseIfNotExist=true&amp;useUnicode=true&amp;characterEncoding=utf-8&amp;zeroDateTimeBehavior=convertToNull&amp;transformedBitIs
+#user=BC515568c4317b269e69f3a49821dd2d
+#password=C0c9757d790f8dae6c0efc6f896d65ef
