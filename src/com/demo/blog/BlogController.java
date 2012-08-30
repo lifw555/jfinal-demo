@@ -27,6 +27,7 @@ public class BlogController extends Controller {
 	
 	public void edit() {
 		setAttr("blog", Blog.dao.findById(getParaToInt()));
+		//这个是测试。
 	}
 	
 	@Before(BlogValidator.class)
