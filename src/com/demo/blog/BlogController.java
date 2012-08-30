@@ -21,7 +21,7 @@ public class BlogController extends Controller {
 	public void save() {
 		getModel(Blog.class).save();
 		//forwardAction("/blog");
-		//这里可以做很多知识的
+		
 		redirect(getAttr("base") + "/blog/" + getPara("pageNumber","1"));
 	}
 	
